@@ -7,13 +7,11 @@ body {
 }
 .main_hero{
     display: flex;
-    padding-left: 100px;
 }
 .group2551{
-    position: absolute;
-    width: 338px;
-    height: 370px;
-    left: 600px;
+    display: flex;
+    padding-left: 1200px;
+    padding-top: 200px;
 }
 .view_pricing{
     font-family: 'Poppins';
@@ -25,24 +23,15 @@ body {
 }
 .arrow{
     box-sizing: border-box;
-    width: 24px;
-    height: 0px;
-    right: 1032px;
-    top: 600px;
     background: #FFFFFF;
     border: 1.5px solid #EBEEF4;
 }
 .textButton{
-    position: absolute;
-    left: 430px;
-    top: 580px;
+    position: relative;
+    display: flex;
 }
 .View_work_button{
-    position: absolute;
-    width: 230px;
-    height: 64px;
-    right: 1210px;
-    top: 568px;
+    display: flex;
     background: #FCD980;
     border-radius: 41px;
 }
@@ -61,15 +50,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
-    width: 100%;
     height: 92px;
     background: #1C1E53;
 }
 .Home{
     position: relative;
-    width: 100%;
-    height: 100%;
     background: #FFFFFF;
 }
 .Home_hero{
@@ -79,11 +64,9 @@ body {
     background: #1C1E53;
 }
 .hero_text{
+    padding-top: 150px;
     position: absolute;
-    width: 582px;
-    height: 414px;
-    left: 160px;
-    top: 218px;
+
 }
 .headline_body{
     position: absolute;

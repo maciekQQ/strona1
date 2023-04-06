@@ -27,13 +27,13 @@ body {
     border: 1.5px solid #EBEEF4;
 }
 .textButton{
-    position: relative;
     display: flex;
 }
 .View_work_button{
     display: flex;
     background: #FCD980;
     border-radius: 41px;
+    height: 50px;
 }
 .View_work_button a{
     text-decoration: none;
@@ -45,6 +45,11 @@ body {
     font-size: 18px;
     line-height: 50%;
     color: #1B1C2B;
+    width: 230px;
+    height: 64px;
+    right: 1210px;
+    top: 568px;
+    
 }
 .navbar{
     display: flex;
@@ -82,14 +87,63 @@ body {
     line-height: 74px;
     color: white;
 }
+    /*FEATURES*/
 .Features{
     display: flex;
     width: 100%;
-    height: 1191px;
+    height: 2191px;
     left: 0px;
     top: 760px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
+.Header{
+    position: absolute;
+    width: 630px;
+    height: 232px;
+    left: 485px;
+    top: 888px;
+}
+.HeadingH2_a{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color:#282938
+}
+.Label2{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+    /*CARD1*/
+.Card{
+    display: flex;
+    background-color: #ffffff;
+}
+.HeadingH6_a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;    
+}
+.Body1a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
 .links-con{
     display: flex;
     padding-left: 10%;
@@ -111,7 +165,7 @@ body {
     border: 2px solid #F4F6FC33;
     background-color: transparent;
 }
-.body1 {
+.Body1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;

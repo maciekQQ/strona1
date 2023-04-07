@@ -10,7 +10,7 @@ body {
 }
 .group2551{
     display: flex;
-    padding-left: 1200px;
+    justify-content: flex-end;
     padding-top: 200px;
 }
 .view_pricing{
@@ -33,7 +33,7 @@ body {
     display: flex;
     background: #FCD980;
     border-radius: 41px;
-    height: 50px;
+    height: 60px;
 }
 .View_work_button a{
     text-decoration: none;
@@ -43,7 +43,7 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 50%;
+    line-height: 60%;
     color: #1B1C2B;
     width: 230px;
     height: 64px;
@@ -51,12 +51,30 @@ body {
     top: 568px;
     
 }
+    /*NAVBAR*/
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 92px;
+    padding: 0 30px;
     background: #1C1E53;
+}
+.nav{
+    clear: both;
+    width: 100%;
+    height: 92px;
+}
+.links-con{
+    display: flex;
+    padding-left: 10%;
+}
+.links-container a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+.links-con li{
+    list-style: none;
 }
 .Home{
     position: relative;
@@ -90,18 +108,19 @@ body {
     /*FEATURES*/
 .Features{
     display: flex;
+    justify-content: center;
+    text-align: center;
     width: 100%;
     height: 2191px;
-    left: 0px;
-    top: 760px;
     background: #ffffff;
 }
+    /*First header in FEATURES*/
 .Header{
-    position: absolute;
+    display: flex;
+    align-items: center;
     width: 630px;
-    height: 232px;
-    left: 485px;
-    top: 888px;
+    height: 100%;
+    background-color: red;
 }
 .HeadingH2_a{
     display: flex;
@@ -122,11 +141,13 @@ body {
     line-height: 28px;
     color: #282938;
 }
-    /*CARD1*/
+    /*Card1*/
 .Card{
     display: flex;
     background-color: #ffffff;
+    justify-content: f;
 }
+    /*Heading for Cards*/
 .HeadingH6_a{
     font-family: 'Poppins';
     font-style: normal;
@@ -144,17 +165,7 @@ body {
     color: #000000;
 }
 
-.links-con{
-    display: flex;
-    padding-left: 10%;
 
-}
-.links-con a{
-    text-decoration: none;
-}
-.links-con li{
-    list-style: none;
-}
 .frame a{
     text-decoration: none;
 }

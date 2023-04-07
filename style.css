@@ -8,49 +8,7 @@ body {
 .main_hero{
     display: flex;
 }
-.group2551{
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 200px;
-}
-.view_pricing{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 10px;
-    color: #FFFFFF;    
-}
-.arrow{
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1.5px solid #EBEEF4;
-}
-.textButton{
-    display: flex;
-}
-.View_work_button{
-    display: flex;
-    background: #FCD980;
-    border-radius: 41px;
-    height: 60px;
-}
-.View_work_button a{
-    text-decoration: none;
-}
-.View_work_button_text{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 60%;
-    color: #1B1C2B;
-    width: 230px;
-    height: 64px;
-    right: 1210px;
-    top: 568px;
-    
-}
+
     /*NAVBAR*/
 .navbar{
     display: flex;
@@ -69,6 +27,7 @@ body {
 .links-con{
     display: flex;
     margin-right: 10%; 
+    justify-content: space-between;
 }
 .links-container a{
     margin-right: 20px;
@@ -77,26 +36,76 @@ body {
 .links-con li{
     list-style: none;
 }
+    /*HERO*/
 .Home{
     display: flex;
     background: #FFFFFF;
 }
 .Home_hero{
-    position: absolute;
+    display: flex;
     height: 760px;
     width: 100%;
     background: #1C1E53;
 }
 .hero_text{
     padding-top: 150px;
-    position: absolute;
-
+    padding-left: 10%;
+    display: flex;
+}
+.group2551{
+    display: flex;
+    width: 638px;
+    height: 361.12px;
+    padding-left: 20%;
+    padding-top: 200px;
+}
+.view_pricing{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    color: #FFFFFF;    
+}
+.arrow{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1.5px solid #EBEEF4;
+}
+.textButton{
+    display: flex;
+    width: 138px;
+    height: 28px;
+}
+.View_work_button{
+    display: flex;
+    justify-content: center;
+    background: #FCD980;
+    border-radius: 41px;
+    width: 230px;
+    height: 64px;
+}
+.View_work_button a{
+    text-decoration: none;
+}
+.View_work_button_text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 60%;
+    color: #1B1C2B;
+    width: 230px;
+    height: 64px;
+    right: 1210px;
+    top: 568px;
+    
 }
 .headline_body{
-    position: absolute;
+    display: flex;
     width: 582px;
     height: 302px;
-    left: 160px;
+    
 }
 .headingH1_a{
     font-family: 'Poppins';

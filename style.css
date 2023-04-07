@@ -5,42 +5,70 @@ body {
   margin: 0;
   padding: 0;
 }
-.main_hero{
-    display: flex;
-}
-
     /*NAVBAR*/
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 92px;
-    padding: 0 30px;
     background: #1C1E53;
 }
 .nav{
-    clear: both;
-    justify-content: space-between;
     width: 100%;
     height: 92px;
 }
+.main_logo{
+    padding-left: 130px;
+}
 .links-con{
     display: flex;
-    margin-right: 10%; 
-    justify-content: space-between;
+    padding-right: 110px;
 }
-.links-container a{
+.links-con a{
     margin-right: 20px;
     text-decoration: none;
+}
+.links-con ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 .links-con li{
     list-style: none;
 }
-    /*HERO*/
-.Home{
-    display: flex;
-    background: #FFFFFF;
+.links-con li a{
+    text-decoration:  none;
+    padding: 1rem;
+    display: block;
 }
+.frame a{
+    text-decoration: none;
+}
+.frame{
+    height: 60px;
+    width: 185px;
+    border-radius: 41px;
+    border: 2px solid #F4F6FC33;
+    background-color: transparent;
+}
+.toggle-button{
+    position: absolute;
+    right: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .burger{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+ 
+}
+    /*HERO*/
+
 .Home_hero{
     display: flex;
     height: 760px;
@@ -48,65 +76,20 @@ body {
     background: #1C1E53;
 }
 .hero_text{
-    padding-top: 150px;
-    padding-left: 10%;
-    display: flex;
-}
-.group2551{
-    display: flex;
-    width: 638px;
-    height: 361.12px;
-    padding-left: 20%;
-    padding-top: 200px;
-}
-.view_pricing{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 10px;
-    color: #FFFFFF;    
-}
-.arrow{
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1.5px solid #EBEEF4;
-}
-.textButton{
-    display: flex;
-    width: 138px;
-    height: 28px;
-}
-.View_work_button{
-    display: flex;
-    justify-content: center;
-    background: #FCD980;
-    border-radius: 41px;
-    width: 230px;
-    height: 64px;
-}
-.View_work_button a{
-    text-decoration: none;
-}
-.View_work_button_text{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 60%;
-    color: #1B1C2B;
-    width: 230px;
-    height: 64px;
-    right: 1210px;
-    top: 568px;
-    
-}
-.headline_body{
-    display: flex;
+    padding-left: 130px;
+    margin-top: 150px;
     width: 582px;
-    height: 302px;
-    
+    height: 222px;
+    color: #FFFFFF;
 }
+.body2_loremipsum{
+    width: 562px;
+    height: 56px;
+    opacity: 0.7;
+    transform: translateY(-25px); 
+    color:white
+}
+
 .headingH1_a{
     font-family: 'Poppins';
     font-style: normal;
@@ -115,23 +98,126 @@ body {
     line-height: 74px;
     color: white;
 }
+.view_pricing{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;    
+}
+.arrow{
+    display: flex;
+    width: 98px;
+    height: 28px;
+    margin-left: 45%;
+    margin-top: -10%;
+    text-decoration: none;
+}
+.textButton{
+    display: flex;
+    width: 138px;
+    height: 28px;
+}
+button.View_work_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 64px;
+    border: 0px;
+    background: #FCD980;
+    border-radius: 40px
+}
+button.View_work_button:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 64px;
+    background: #FDE4A6;
+    border-radius: 40px;
+}
+.View_work_button a{
+    text-decoration: none;
+}
+.View_work_button_text{
+    flex: none;
+    width: 126px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2A;
+    order: 0;
+    flex-grow: 0;
+}
+.main_hero{
+    display: flex; 
+    width: 638px;
+    height: 361.12px;
+    margin-left: auto;
+    margin-right: 160px;
+    margin-top: auto;
+    margin-bottom: 157.88px;
+}
+
+
     /*FEATURES*/
 .Features{
-    display: flex;
+    clear: both;
     justify-content: center;
     text-align: center;
     width: 100%;
     height: 2191px;
     background: #ffffff;
 }
+.Cards{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    display: inline;
+
+}
+#Card{
+    width: 405px;
+    height: 316px;
+}
+#Card1{
+    width: 405px;
+    height: 316px;
+}
+#Card2{
+    width: 405px;
+    height: 316px;
+}
+#Card3{
+    width: 405px;
+    height: 316px;
+}
+#Card4{
+    width: 405px;
+    height: 316px;
+}
+#Card5{
+    width: 405px;
+    height: 316px;
+}
+
     /*First header in FEATURES*/
 .Header{
-    display: flex;
+    padding-left: 35%;
     align-items: center;
+    text-align:center;
+    height: 250px;
     width: 630px;
-    height: 100%;
-    background-color: red;
+
 }
+
 .HeadingH2_a{
     display: flex;
     font-family: 'Poppins';
@@ -143,19 +229,23 @@ body {
     color:#282938
 }
 .Label2{
-    text-align: center;
+    display: flex;
+    text-align:center;
+    justify-content: center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
     color: #282938;
+
 }
     /*Card1*/
 .Card{
-    display: flex;
+    text-align:center;
+    justify-content: center;
     background-color: #ffffff;
-    justify-content: f;
+
 }
     /*Heading for Cards*/
 .HeadingH6_a{
@@ -176,16 +266,7 @@ body {
 }
 
 
-.frame a{
-    text-decoration: none;
-}
-.frame{
-    height: 60px;
-    width: 185px;
-    border-radius: 41px;
-    border: 2px solid #F4F6FC33;
-    background-color: transparent;
-}
+
 .Body1 {
     font-family: 'Poppins';
     font-style: normal;
@@ -225,4 +306,39 @@ font-size: 38px;
 line-height: 56px;
 /* identical to box height, or 147% */
 color: #000000;
+}
+
+/*responsive nav*/
+@media (max-width: 480px){
+    .toggle-button{
+        display: flex;
+        padding: 10px;
+    }
+    .links-con{
+        display: none;
+        width: 100%;
+    } 
+    .main_logo{
+        padding: 10px
+    }
+    .navbar {
+        height: 92px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        width: 100%;
+    }
+    .links-container {
+        width: 100%;
+        flex-direction: column;
+        background: #1C1E53; 
+    }
+    .links-con a{
+        width: 100%;
+        flex-direction: column;
+    }
+    .links-con.active{
+        display: flex;
+        position: relative;    
+    }
 }

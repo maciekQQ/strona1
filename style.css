@@ -86,7 +86,7 @@ body {
     width: 562px;
     height: 56px;
     opacity: 0.7;
-    transform: translateY(-25px); 
+    transform: translateY(-20px); 
     color:white
 }
 
@@ -169,23 +169,51 @@ button.View_work_button:hover{
 
     /*FEATURES*/
 .Features{
-    clear: both;
+   
     justify-content: center;
     text-align: center;
     width: 100%;
     height: 2191px;
     background: #ffffff;
 }
-.Cards{
+.cards1{/*FIRST ROW OF CARDS*/
+    flex-direction: row;
     display: flex; 
     justify-content: center;
-    text-align: center;
-    display: inline;
-
 }
-#Card{
+.cards2{/*SECOND ROW OF CARDS*/
+    flex-direction: row;
+    display: flex; 
+    justify-content: center;
+}
+.Card{
+    margin: 10px;
+
+    display: flex; 
+    text-align:  left; 
     width: 405px;
     height: 316px;
+    flex-wrap: wrap;
+
+}
+.Icon{/*Icon in each Card*/
+    width: 32px;
+    height: 32px;
+}
+.headingH6_a{/*HEADINGS IN CARDS*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+     
+}
+.Body1a{/*TEXT IN CARDS*/
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;  
+    text-align:  left;   
 }
 #Card1{
     width: 405px;
@@ -306,6 +334,87 @@ font-size: 38px;
 line-height: 56px;
 /* identical to box height, or 147% */
 color: #000000;
+}
+/*TESTIMONIALS*/
+.Testimonials{
+    display: flex;
+    height: 506px;
+    width: 100%;
+    background: #ffffff;
+}
+.heading{
+    text-align: left;
+    padding-left: 320px;
+    margin-top: 150px;
+    width: 327px;
+    height: 184px;
+    color: #FFFFFF;
+}
+.headingH3_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+.body1_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.content{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 843.2px;
+    height: 250px;
+    color: #FFFFFF;
+    
+}
+.headingH5_content{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+}
+.president{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 349px;
+    height: 56px;
+}
+.president_photo{
+    width: 59px;
+    height: 87.34px;
+    border-radius: 80%;
+}
+.label1_president{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    width: 183px;
+    height: 32px;
+    color: #282938;
+}
+.small{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    width: 183px;
+    height: 28px;
+    color: #282938;
+    
 }
 
 /*responsive nav*/

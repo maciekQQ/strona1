@@ -626,6 +626,232 @@ margin-right: auto;
     height: 28px;
     margin-right: 160px;
     }
+    /*CONTACT PAGE*/
+.contact_heading{
+    display: flex;
+    width: 100%;
+    min-height: 1096px;
+    flex-direction: column;
+}
+.headingH2_contact{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+}
+.contact_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.7;
+}
+.form{
+    background: #EBEEF4;
+    border-radius: 12px;
+    width: 1061px;
+    min-height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;   
+}
+.contact_form, .contact_form1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.name{
+    width: 55px;
+    height: 32px;
+    color: #000000;
+    margin-left: 77px;
+    margin-top: 55px;
+    margin-bottom: 6px;
+}
+.category{
+    width: 85px;
+    height: 32px;
+    color: #000000;
+    margin-left: 77px;
+    margin-bottom: 6px;
+    margin-top: 24px;
+}
+.box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 32px;
+    gap: 10px;
+    width: 438px;
+    height: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-left: 77px;
+    background: transparent;
+}
+.message{
+    width: 82px;
+    height: 32px;
+    color: #000000;
+    margin-left: 77px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.box1{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 32px;
+    gap: 10px;
+    width: 908px;
+    height: 138px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-left: 77px;
+    background: transparent;
+}
+
+.email_form{
+    width: 85px;
+    height: 32px;
+    color: #000000;
+    margin-top: 55px;
+    margin-bottom: 6px;
+    margin-left: 32px;
+}
+.subject{
+    width: 69px;
+    height: 32px;
+    margin-top: 24px;
+    margin-bottom: 6px;
+    margin-left: 32px;
+}
+.box2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 438px;
+    height: 64px;
+    padding: 18px 32px;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    background: transparent;
+    margin-left: 32px;
+} 
+.box::placeholder{
+    width: auto;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.box1::placeholder{
+    width: 196px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.box2::placeholder{
+    width: auto;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+input.box{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+input.box1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-bottom: 92px;
+    word-wrap: break-word;
+}
+input.box2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 51px;
+    gap: 10px;
+    width: 254px;
+    height: 64px;
+    background: #282938;
+    border-radius: 41px;
+    margin-left: 77px;
+    margin-top: 32px;
+}
+.submit_button{
+    width: 125px;
+    height: 32px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #EBEEF4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 /*responsive nav*/
 @media (max-width: 480px){
     .toggle-button{

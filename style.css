@@ -1143,6 +1143,160 @@ input.box2{
     color: #282938;
     opacity: 0.7;    
 }
+/*---ABOUT US PAGE---*/
+
+.about_box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    margin-right: 25%;
+    text-align: left;
+    padding-top: 5%;
+
+}
+.box_top{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.photoblogdiv{
+    padding-top: 7%;
+}
+
+.about_photo{
+    width: 547px;
+    height: 336px;
+    object-fit: cover;
+}
+.text1{
+    width: 419px;
+    height: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+.text2{
+    width: 484px;
+    height: 84px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #282938;
+    opacity: 0.7;
+}
+.HeadingH1_aboutheading{
+    width: 595px;
+    height: 148px;
+    right: 845px;
+    top: 284px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #282938;
+}
+.headingH2_benefits{
+    width: 630px;
+    height: 128px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;  
+}
+.benefits{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+.benefit_divs{
+    flex-direction: row;
+    display: flex; 
+    justify-content: space-between;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 164px;
+    column-gap: 2rem;
+
+}
+.benefit{
+    width: 405px;
+    height: 316px;
+    background: #EBEEF4;
+    opacity: 0.7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+}
+.box_bottom{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 712px;
+    background: #EBEEF4;
+}
+.headingH2_meet{
+    width: 357px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+}
+.cards_about{
+    width: 1280px;
+    height: 344px;
+    flex-direction: row;
+    display: flex; 
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 128px;
+    column-gap: 2rem;
+}
+.meet_text{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 128px;
+    padding-bottom: 48px;
+}
+.card_team{
+    display: flex;
+    width: 296px;
+    height: 344px;
+    background: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+}
+.Icon_team{
+    width: 168px;
+    height: 168px;
+    background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+    border: 4px solid #000000;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 /*responsive nav*/
 @media (max-width: 480px){

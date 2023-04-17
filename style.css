@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
-
+a{
+    text-decoration: none;
+}
 body {
   margin: 0;
   padding: 0;
@@ -508,10 +510,10 @@ button.View_work_button:hover{
     }
     .Header{
         width: 400px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
 
-        font-weight: 300;
-        font-size: 24px;
-        line-height: 32px;
     }
     .Features{
 
@@ -536,7 +538,8 @@ button.View_work_button:hover{
         text-align: left;
     }
     .Testimonials{
-        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         text-align: center;
         display: flex;
@@ -547,10 +550,14 @@ button.View_work_button:hover{
         width: 100%;
         display: flex;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
     }
     .content{
         width: 100%;
-        display: flex;
+        
+        margin-left: auto;
+        margin-right: auto;
         margin-top: -100px;
         margin-bottom: 100px;
         flex-direction: column;
@@ -767,7 +774,6 @@ button.View_work_button:hover{
     } 
     .footerUPPER{
         flex-direction: column;
-
     }
     .footerLOWER{
         height: 100px;
@@ -995,7 +1001,6 @@ input.box1{
     font-size: 16px;
     line-height: 28px;
     color: #000000;
-    flex: none;
     order: 0;
     flex-grow: 0;
     padding-bottom: 92px;
@@ -1008,7 +1013,6 @@ input.box2{
     font-size: 16px;
     line-height: 28px;
     color: #000000;
-    flex: none;
     order: 0;
     flex-grow: 0;
 }
@@ -1045,14 +1049,13 @@ input.box2{
         flex-direction:column-reverse;
         width: 100%;
         height: auto;
+
     }
     .contact_heading{
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
         justify-content: center;
     }
@@ -1061,19 +1064,19 @@ input.box2{
         height: auto;
         text-align: left;
     }
+    
     .contact_form1 > * {
         width: 100%;
         height: auto;
         text-align: left;
     }
-    .box,.box1,.box2{
-        width: 100%;
-    }
     .headingH2_contact, .contact_text{
         width: 100%;
         height: auto;
-        text-align: left;
 }
+    .box,.box1,.box2{
+        width: 100%;
+    }
 }
 /*------|BLOG PAGE|------*/
 .blog{
@@ -1418,7 +1421,7 @@ input.box2{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding-top: 5%;
+    padding-top: 152px;
 
 }
 .box_top{
@@ -1490,6 +1493,7 @@ input.box2{
     text-align: center;
     justify-content: center;
     padding-bottom: 48px;
+    padding-top: 165px;
 }
 .benefit_divs{
     flex-direction: row;

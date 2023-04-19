@@ -478,17 +478,21 @@ button.View_work_button:hover{
     color: #282938;
 }
 /*responsive home*/
-@media(max-width:400px) {
+@media(max-width:480px) {
     .Home_hero,.hero_text,.Features{
         padding-left: 0;
         width: 100%;
         text-align: center;
     }
+    .HeadingH2_a{
+        line-height: 60px;
+    }
     .view_pricing{
         display: flex;
-
-        padding-left: 50px;
-
+    }
+    .arrow{
+        height: auto;
+        padding-left: 70px;
     }
     .body2_loremipsum{
         width: 100%;
@@ -498,38 +502,29 @@ button.View_work_button:hover{
         flex-wrap: wrap;
     }
     .heading{
-        padding-left: 0;
+        padding-left: 10%;
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
+        display: flex;
     }
     .content{
         padding-top: 100px;
         width: 100%;
-        
     }
-    .Header{
-        width: 400px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-
+    .Header > *{
+        width: 100%;
     }
     .Features{
-
         flex-direction: column;
     }
     .main_hero{
         display: none;
     }
-   
-    .Card{
-        
-        text-align: left;
-        margin-left: 0;
-        margin-right: 0;
-        justify-content: center;
-
+    .Card > *{
+        padding-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .body1_heading{
         display: none;
@@ -546,16 +541,8 @@ button.View_work_button:hover{
         flex-wrap: wrap;
         padding-top: 0;
     }
-    .heading{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .content{
         width: 100%;
-        
         margin-left: auto;
         margin-right: auto;
         margin-top: -100px;
@@ -841,7 +828,6 @@ button.View_work_button:hover{
     text-align: center;
     color: #282938;
     opacity: 0.7;
-
 }
 .form{
     background: #EBEEF4;
@@ -859,8 +845,8 @@ button.View_work_button:hover{
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
-
 }
+
 .name{
     width: 55px;
     height: 32px;
@@ -1011,6 +997,7 @@ input.box2{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    flex: none;
     line-height: 28px;
     color: #000000;
     order: 0;
@@ -1060,23 +1047,21 @@ input.box2{
         justify-content: center;
     }
     .contact_form > * {
-        width: 100%;
-        height: auto;
-        text-align: left;
+        margin-left: 40%;
     }
     
     .contact_form1 > * {
-        width: 100%;
-        height: auto;
-        text-align: left;
+        margin-left: 40%;
     }
     .headingH2_contact, .contact_text{
         width: 100%;
         height: auto;
-}
-    .box,.box1,.box2{
-        width: 100%;
     }
+    .box,.box1,.box2{
+        width: 120%;
+    }
+    
+    
 }
 /*------|BLOG PAGE|------*/
 .blog{
@@ -1422,7 +1407,6 @@ input.box2{
     margin-right: auto;
     text-align: left;
     padding-top: 152px;
-
 }
 .box_top{
     display: flex;
@@ -1436,12 +1420,10 @@ input.box2{
     margin-left: auto;
     margin-right: auto;
 }
-
 .about_photo{
     width: 547px;
     height: 336px;
     object-fit: cover;
-
 }
 .text1{
     width: 419px;
@@ -1608,7 +1590,7 @@ input.box2{
     opacity: 0.7;
 }
      /* responsive about us*/
-@media(max-width: 400px){
+@media(max-width: 480px){
     .about_box{
         margin-left: 0;
         flex-wrap: wrap;
@@ -1634,9 +1616,10 @@ input.box2{
         display: flex;
         flex-direction: column;
     }
+
     .benefit{
-        width: 400px;
-        padding-left: 0;
+        width: 360px;
+        
 
     }
     .cards_about{
